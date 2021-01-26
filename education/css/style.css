@@ -1,0 +1,151 @@
+body{
+    font-family: sans-serif;
+    margin: 0;padding: 0;
+}
+.bg-img{
+    background-image: url(../../photo/bg-img.jpg);
+}
+/* navbar */
+nav{margin: 0;
+    padding: 0;
+    height: 90px;
+    width: 100%;
+    list-style: none;
+}
+.navleft li{
+    margin: 35px 30px;
+    float: left;
+    font-size: 20px;
+
+}
+.navright li{
+    font-size: 20px;
+    margin:35px 30px;
+    float:right;
+
+}
+nav li a{
+    color: black;
+    text-align: center;
+    
+    
+    text-decoration: none;
+}
+#active{
+    background: rgb(138, 138, 182);
+    padding: 10px 10px;
+}
+nav  a:hover{
+    background-color:  rgb(138, 138, 182);
+    padding: 10px 0px;
+}
+
+.introduc{
+    display: flex;
+    background-color: rgb(167, 137, 137);
+    width: 80%;
+    height: 500px;
+}
+.photo{
+    width:30%;
+    
+}
+
+
+/* footer */
+footer{
+    margin: 75px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(189, 175, 175);
+}
+.address{
+    margin-top: 20px;
+}
+footer img{
+    margin: auto;
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+h4{margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+.icons img{
+    margin: 20px;
+}
+@media(max-width:900px){
+    nav li a{
+        margin: 0px 0px;
+        font-size: 17px;
+    }
+    
+    .icons img{
+        margin: 10px;
+    }
+    .icons img{
+        margin-top: 25px;
+        width: 30px;
+        height: 30px;
+    }
+}
+@media(max-width:650px){
+    nav{
+        margin: 0px;
+        display:grid;
+    }
+    nav li a{
+        margin: 0;
+        font-size: 17px;
+    }
+  
+    .navright li{
+        text-align: center;
+        margin-top: 0px;
+        padding: 0;
+        float: left;
+    }
+    #active{
+        padding:5px 43%;
+    }
+
+    .navleft{
+        justify-self: center;
+    }
+    nav .navright {
+        display: grid;
+    }
+    .navleft a:hover{
+        color: black;
+        width: 100%;
+        background-color: rgb(138, 138, 182);
+        padding:5px 250px;
+        margin: auto;
+    }
+    .navright a:hover{
+        color: black;
+        width: 100%;
+        background-color: rgb(138, 138, 182);
+        padding:5px 43%;
+        margin: auto;
+    }
+    
+    .
+   
+    .icons img{
+        margin: 25px 5px;
+        width: 20px;
+        height: 20px;
+    }
+    .address{
+        font-size: 12px;
+    }
+    h4{margin-top: 30px;
+        font-size: 12px;
+    }
+
+}

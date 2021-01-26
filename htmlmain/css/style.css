@@ -2,18 +2,20 @@ body{
     font-family: sans-serif;
     margin: 0;padding: 0;
 }
+.bg-img{
+    background-image: url(../../photo/bg-img.jpg);
+}
 /* navbar */
 nav{margin: 0;
     padding: 0;
     height: 90px;
     width: 100%;
-    background: teal;
     list-style: none;
 }
 .navleft li{
     margin: 35px;
     float: left;
-    font-size: 19px;
+    font-size: 30px;
 
 }
 .navright li{
@@ -29,9 +31,13 @@ nav li a{
     
     text-decoration: none;
 }
-nav a:hover{
-    background-color: rgb(189, 139, 63);
-    padding: 33px 0px ;
+#active{
+    background: rgb(138, 138, 182);
+    padding: 10px 10px;
+}
+nav  a:hover{
+    background-color:  rgb(138, 138, 182);
+    padding: 10px 0px;
 }
 
 /* main */
@@ -46,8 +52,9 @@ main{
     margin-bottom: 0;
     /* background-color: rgb(113, 97, 128); */
 }
+
 .mainleft{
-    background-color: rgb(220, 173, 158);
+    background-color: rgb(81, 76, 75);
     width: 30%;
     height: 500px;
     border-radius: 10px;
@@ -59,21 +66,22 @@ main{
     align-items: center;
 }
 .img img{
-    background-color: rgb(218, 137, 110);
+    background-color: rgb(81, 76, 74);
     padding: 10px;
     width: 200px;
-    border: solid  rgb(221, 154, 130) 10px;
+    border: solid  rgb(110, 100, 96) 10px;
     border-radius: 50%;
 
 }
 .intro{
-    background-color: rgb(186, 153, 142);
-    margin: 30px 15px;
+    background-color: rgb(128, 126, 125);
+    margin: 20px 15px;
     border-radius: 10px;
     padding: 20px;
 }
 
 .mainright{
+    
     width: 50%;
     padding: 50px;
     border-radius: 30px;
@@ -92,20 +100,19 @@ main{
 }
 
 .sub{
-
+    margin-right: 40px;
     padding: 20px;
-    margin: 0 10px;
+    margin: 0 5px;
     width: 100%;
     text-align: center;
     border-radius: 10px;
-    background-color: teal;
+    background-color: rgb(126, 132, 132);
 }
 .sub a{
     color: black;
 }
 .sub a:hover{
-    color: rgb(216, 83, 83);
-    /* color: rgb(157, 136, 128); */
+    color:  rgb(100, 100, 209);
 }
 h3{
     text-decoration: underline;
@@ -116,10 +123,12 @@ footer{
     margin: 75px;
     display: flex;
     justify-content: space-between;
-    height: auto;
     margin: 0;
     padding: 0;
-    background-color: rgb(128, 98, 98);
+    background-color: rgb(189, 175, 175);
+}
+.address{
+    margin-top: 20px;
 }
 footer img{
     margin: auto;
@@ -127,8 +136,13 @@ footer img{
     height: 50px;
     width: 50px;
 }
+h4{margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
 .icons img{
-    margin: 15px;
+    margin: 20px;
 }
 @media(max-width:900px){
     nav li a{
@@ -145,7 +159,8 @@ footer img{
     }
     .mainright{
         width: 100%;
-        background-color: rgb(221, 212, 212);
+        
+        background-color: rgb(111, 108, 108);
         margin:10px  0px;
         padding: 0px;
     }
@@ -165,6 +180,11 @@ footer img{
     }
     .icons img{
         margin: 10px;
+    }
+    .icons img{
+        margin-top: 25px;
+        width: 30px;
+        height: 30px;
     }
 }
 @media(max-width:650px){
@@ -217,14 +237,18 @@ footer img{
     }
     .sub {
         margin: 10px 0px;
-        width: 99%;
+        width: 93%;
     }
+   
     .icons img{
-        margin: 5px;
-        width: 35px;
-        height: 35px;
+        margin: 25px 5px;
+        width: 20px;
+        height: 20px;
     }
     .address{
+        font-size: 12px;
+    }
+    h4{margin-top: 30px;
         font-size: 12px;
     }
 
