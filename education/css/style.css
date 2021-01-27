@@ -32,24 +32,65 @@ nav li a{
     text-decoration: none;
 }
 #active{
-    background: rgb(138, 138, 182);
+    background: rgba(138, 138, 182, 0.49);
     padding: 10px 10px;
 }
 nav  a:hover{
-    background-color:  rgb(138, 138, 182);
+    background-color:  rgba(138, 138, 182, 0.422);
     padding: 10px 0px;
 }
-
 .introduc{
     display: flex;
-    background-color: rgb(167, 137, 137);
     width: 80%;
-    height: 500px;
-}
-.photo{
-    width:30%;
     
 }
+.photo {
+    margin:20px;
+    width: 50%;
+    margin-left: 20%;
+}
+.text h3{
+    margin-left:20px ;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: rgba(226, 210, 210, 0.374) solid 7px;
+    margin-bottom: 10px;
+}
+.exper .grade1 .grade{
+    margin : px; 
+}
+
+.grade1{
+
+    width: 100%;
+    
+    display: flex;
+    
+}
+.grade1 .grade{
+    width: 50%;
+}
+.grade{
+    
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(165, 160, 160, 0.497);
+}
+.exper .grade{
+    margin: 20px;
+}
+.text{
+
+    width: 270px;
+    padding: 20px;
+    height: auto;border-radius: 10px;
+
+    background-color: #7a767680;
+}
+
 
 
 /* footer */
@@ -78,11 +119,38 @@ h4{margin-top: 30px;
 .icons img{
     margin: 20px;
 }
+
+    
 @media(max-width:900px){
     nav li a{
         margin: 0px 0px;
         font-size: 17px;
     }
+    .grade1{
+        display: grid;
+    }
+    .grade1 .grade{
+        width: 93%;
+    }
+    .introduc{
+        margin: 0;
+        width: 100%;
+        display: grid;
+    }
+    .photo img{
+
+        margin-left: 150px;
+    }
+    .photo .text{
+        margin: 0;
+        width: 100%;
+        
+
+    }
+    .exper{
+        width: 100%;
+    }
+}
     
     .icons img{
         margin: 10px;
@@ -134,7 +202,14 @@ h4{margin-top: 30px;
         margin: auto;
     }
     
-    .
+    .introduc{margin-top: 200px;
+        width: 100%;
+        
+    }
+    .photo{
+        display: none;
+    }
+    
    
     .icons img{
         margin: 25px 5px;
