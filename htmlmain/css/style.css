@@ -32,11 +32,11 @@ nav li a{
     text-decoration: none;
 }
 #active{
-    background: rgb(138, 138, 182);
+    background: rgba(138, 138, 182, 0.551);
     padding: 10px 10px;
 }
 nav  a:hover{
-    background-color:  rgb(138, 138, 182);
+    background-color:  rgba(138, 138, 182, 0.578);
     padding: 10px 0px;
 }
 
@@ -54,7 +54,7 @@ main{
 }
 
 .mainleft{
-    background-color: rgb(81, 76, 75);
+    background-color: rgba(81, 76, 75, 0.531);
     width: 30%;
     height: 500px;
     border-radius: 10px;
@@ -66,22 +66,21 @@ main{
     align-items: center;
 }
 .img img{
-    background-color: rgb(81, 76, 74);
+    background-color: rgba(243, 242, 241, 0.714);
     padding: 10px;
     width: 200px;
-    border: solid  rgb(110, 100, 96) 10px;
+    border: solid  rgba(110, 100, 96, 0.728) 10px;
     border-radius: 50%;
-
 }
 .intro{
-    background-color: rgb(128, 126, 125);
+    background-color: rgba(128, 126, 125, 0.673);
     margin: 20px 15px;
     border-radius: 10px;
     padding: 20px;
 }
 
 .mainright{
-    
+color: white;
     width: 50%;
     padding: 50px;
     border-radius: 30px;
@@ -106,13 +105,13 @@ main{
     width: 100%;
     text-align: center;
     border-radius: 10px;
-    background-color: rgb(126, 132, 132);
+    background-color: rgba(126, 132, 132, 0.626);
 }
 .sub a{
-    color: black;
+    color: rgba(0, 0, 0, 0.959);
 }
 .sub a:hover{
-    color:  rgb(100, 100, 209);
+    color:  rgba(255, 252, 250, 0.986);
 }
 h3{
     text-decoration: underline;
@@ -125,7 +124,7 @@ footer{
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    background-color: rgb(189, 175, 175);
+    background-color: rgba(189, 175, 175, 0.585);
 }
 .address{
     margin-top: 20px;
@@ -144,7 +143,16 @@ h4{margin-top: 30px;
 .icons img{
     margin: 20px;
 }
-@media(max-width:900px){
+@media(max-width:1700px){
+    .mainleft{
+        width: 70%;
+    }
+    .intro{padding: 5px;
+        font-size: 16px;
+    }
+
+}
+@media(max-width:1000px){
     nav li a{
         margin: 0px 0px;
         font-size: 17px;
@@ -153,9 +161,21 @@ h4{margin-top: 30px;
         display: inline;
         
     }
+    .mainright{
+        margin:  10px;
+        color: black;
+    }
     .mainleft{
         margin-left: 10%;
         width: 80%;
+        height: auto;
+        padding-bottom:  20px;
+    }
+    .img{
+        padding-top: 20px;
+    }
+    .intro{
+        margin-top: 20px;
     }
     .mainright{
         width: 100%;

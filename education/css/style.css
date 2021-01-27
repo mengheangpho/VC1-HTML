@@ -3,7 +3,7 @@ body{
     margin: 0;padding: 0;
 }
 .bg-img{
-    background-image: url(../../photo/bg-img.jpg);
+    background-image: url(../../photo/educa.jpg);
 }
 /* navbar */
 nav{margin: 0;
@@ -25,18 +25,18 @@ nav{margin: 0;
 
 }
 nav li a{
-    color: black;
+    color: rgba(252, 250, 250, 0.517);
     text-align: center;
     
     
     text-decoration: none;
 }
 #active{
-    background: rgba(138, 138, 182, 0.49);
+    background: rgba(138, 138, 182, 0.694);
     padding: 10px 10px;
 }
 nav  a:hover{
-    background-color:  rgba(138, 138, 182, 0.422);
+    background-color:  rgba(130, 130, 159, 0.694);
     padding: 10px 0px;
 }
 .introduc{
@@ -50,34 +50,48 @@ nav  a:hover{
     margin-left: 20%;
 }
 .text h3{
+    
     margin-left:20px ;
 }
 img{
     width: 300px;
     height: 300px;
     border-radius: 10px;
-    border: rgba(226, 210, 210, 0.374) solid 7px;
+    border: rgba(226, 210, 210, 0.701) solid 7px;
     margin-bottom: 10px;
 }
 .exper .grade1 .grade{
-    margin : px; 
+    margin : 0px; 
 }
 
 .grade1{
 
     width: 100%;
-    
+    margin-bottom: 0;
     display: flex;
     
 }
 .grade1 .grade{
     width: 50%;
+    
 }
-.grade{
+.grade p{
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.grade h4{
+    background: rgba(238, 234, 234, 0.66);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+.grade p{
     
     padding: 20px;
     border-radius: 10px;
-    background-color: rgba(165, 160, 160, 0.497);
+    background-color: rgba(165, 160, 160, 0.558);
 }
 .exper .grade{
     margin: 20px;
@@ -88,7 +102,7 @@ img{
     padding: 20px;
     height: auto;border-radius: 10px;
 
-    background-color: #7a767680;
+    background-color: #a7a6a6c1;
 }
 
 
@@ -100,7 +114,7 @@ footer{
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    background-color: rgb(189, 175, 175);
+    background-color: rgba(189, 175, 175, 0.605);
 }
 .address{
     margin-top: 20px;
@@ -117,20 +131,31 @@ h4{margin-top: 30px;
     text-decoration: underline;
 }
 .icons img{
+    border: none;
     margin: 20px;
 }
 
-    
-@media(max-width:900px){
+@media(max-width:1400px){
+    .grade2{
+        display: none;
+    }
+}
+@media(max-width:1000px){
     nav li a{
         margin: 0px 0px;
         font-size: 17px;
     }
     .grade1{
         display: grid;
+        margin-left: 20px;
     }
     .grade1 .grade{
+
         width: 89%;
+    }
+    .grade2{
+        display: grid;
+        width: 93%;
     }
     .introduc{
         margin: 0;
@@ -139,10 +164,10 @@ h4{margin-top: 30px;
     }
     .photo img{
 
-        margin-left: 50px;
+        margin-left: 20%;
     }
     .photo .text{
-        margin: 0;
+        margin: 0%;
         width: 100%;
         
 
@@ -221,8 +246,8 @@ h4{margin-top: 30px;
     .icons img{
         
         margin: 10px 0px;
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
     }
     .address{
         font-size: 12px;
