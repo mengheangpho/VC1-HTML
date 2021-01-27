@@ -41,8 +41,81 @@ nav  a:hover{
     background-color:  rgb(138, 138, 182);
     padding: 10px 0px;
 }
+.container{
+    display: flex;
+    margin: 5% 100px;
+    background-color: rgba(88, 86, 84, 0.299);
+}
 
+form{
+    padding: 10px;
+    width: 40%;
+    height: auto;
+    
+}
+h3{
+    color: white;
+    margin-left: 38%;
+    text-decoration: underline;
+}
+input[type="text"]{
+    background-color: rgba(250, 248, 248, 0.694);
+    outline: none;
+    width: 45%;
+    border: none;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+input[type="email"]{
+    background-color: rgba(253, 250, 250, 0.694);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin: 10px;
+    width: 95%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+textarea{
+    outline: none ;
+    border-radius: 3px;
+    width: 95%;
+    margin: 10px;
+    border: none;
+    background-color: rgba(250, 246, 246, 0.694);
+    box-sizing: border-box;
+    
+}
+.submit{
+    text-align: center;
+    
+}
+input[type="submit"],input[type="reset"]{
+    padding: 15px;width: 200px;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+}
+#submit{
+    background:rgba(0, 128, 128, 0.51);
+    color: white;
+}
+#reset{
+    background: rgba(245, 160, 49, 0.531);
+}
+iframe{
+    padding: 10px;
+}
+.contact-us{
+    margin: 20px;
+}
 
+.facebook a{
+    margin-top: 0px;
+    margin-left: 100px;
+}
 /* footer */
 footer{
     margin: 75px;
