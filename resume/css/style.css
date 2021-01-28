@@ -64,7 +64,7 @@ img{
     border: rgba(226, 210, 210, 0.701) solid 7px;
     margin-bottom: 10px;
 }
-.exper .grade1 .grade{
+.edu .grade1 .grade{
     margin : 5px; 
 }
 
@@ -90,7 +90,7 @@ img{
 .grade h4{
     background: rgba(78, 74, 74, 0.66);
     padding: 15px 0px;
-    color: white;
+    color: rgba(255, 255, 255, 0.605);
     text-align: center;
     border-radius: 10px;
 }
@@ -114,6 +114,26 @@ img{
 .grade p:hover{
 
     background-color: rgba(255, 255, 255, 0.605);
+}
+.experience{
+    padding: 0;margin: 0;
+}
+.exper h4{
+    
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(199, 190, 190, 0.639);
+
+}
+.exper p{
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.565);
+    background-color: rgba(122, 116, 116, 0.551);
 }
 
 
