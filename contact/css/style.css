@@ -11,6 +11,7 @@ nav{margin: 0;
     height: 90px;
     width: 100%;
     list-style: none;
+
 }
 .navleft li{
     margin: 35px 30px;
@@ -25,31 +26,31 @@ nav{margin: 0;
 
 }
 nav li a{
-    color: rgb(194, 179, 179);
+    color: rgba(252, 250, 250, 0.517);
     text-align: center;
     
     
     text-decoration: none;
 }
 #active{
-    color: black;
-    background: rgb(138, 138, 182);
+    background: rgba(138, 138, 182, 0.694);
     padding: 10px 10px;
+    color: black;
 }
 nav  a:hover{
-    color: black;
-    background-color:  rgb(138, 138, 182);
+    background-color:  rgba(130, 130, 159, 0.694);
     padding: 10px 0px;
 }
 .container{
+    padding: 10px;
     display: flex;
     margin: 5% 100px;
-    background-color: rgba(88, 86, 84, 0.299);
+    background-color: rgba(88, 86, 84, 0.51);
 }
 
 form{
     padding: 10px;
-    width: 40%;
+    width: 50%;
     height: auto;
     
 }
@@ -61,28 +62,28 @@ h3{
 input[type="text"]{
     background-color: rgba(250, 248, 248, 0.694);
     outline: none;
-    width: 45%;
+    width: 48%;
     border: none;
-    border-radius: 3px;
-    margin: 10px;
-    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 15px 0px;
     box-sizing: border-box;
 }
 input[type="email"]{
     background-color: rgba(253, 250, 250, 0.694);
     outline: none;
     border: none;
-    border-radius: 3px;
-    margin: 10px;
-    width: 95%;
+    border-radius: 5px;
+    margin: 10px 0px;
+    width: 97%;
     padding: 15px;
     box-sizing: border-box;
 }
 textarea{
     outline: none ;
-    border-radius: 3px;
-    width: 95%;
-    margin: 10px;
+    border-radius: 5px;
+    width: 97%;
+    margin: 10px 0px;
     border: none;
     background-color: rgba(250, 246, 246, 0.694);
     box-sizing: border-box;
@@ -97,6 +98,7 @@ input[type="submit"],input[type="reset"]{
     margin: 5px;
     border-radius: 20px;
     border: none;
+    outline: none;
 }
 #submit{
     background:rgba(0, 128, 128, 0.51);
@@ -111,10 +113,20 @@ iframe{
 .contact-us{
     margin: 20px;
 }
-
-.facebook a{
-    margin-top: 0px;
+.icon img{
+    margin: 5px;
+}
+.icon{
     margin-left: 100px;
+    display: flex;
+}
+.icon a{
+    color: black;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.icon img{
+    height: 50px;
 }
 /* footer */
 footer{
@@ -123,7 +135,7 @@ footer{
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    background-color: rgb(189, 175, 175);
+    background-color: rgba(189, 175, 175, 0.333);
 }
 .address{
     margin-top: 20px;
@@ -156,9 +168,36 @@ h4{margin-top: 30px;
         width: 30px;
         height: 30px;
     }
+    .container{
+        margin: 3%;
+        border-radius: 5px;
+
+        justify-content: center;
+    }
+    form{
+        width: 100%;
+    }
+    input[type="text"]{
+        margin-right: 10px;
+        width: 48%;
+        box-sizing: border-box;
+    }
+    input[type="email"],textarea{
+        width: 99%;
+    }
+    h3{
+        margin-left: 40%;
+    }
+    .contact-us{
+        display: none;
+    }
+    iframe{
+        height: 250px;
+    }
 }
 @media(max-width:650px){
     nav{
+        color: black;
         margin: 0px;
         display:grid;
     }
@@ -174,7 +213,7 @@ h4{margin-top: 30px;
         float: left;
     }
     #active{
-        padding:5px 43%;
+        padding:5px 40%;
     }
 
     .navleft{
@@ -186,19 +225,25 @@ h4{margin-top: 30px;
     .navleft a:hover{
         color: black;
         width: 100%;
-        background-color: rgb(138, 138, 182);
-        padding:5px 250px;
-        margin: auto;
+        background-color: rgba(138, 138, 182, 0.571);
+        padding:5px 190px;
+        margin: 0px;
     }
     .navright a:hover{
         color: black;
         width: 100%;
-        background-color: rgb(138, 138, 182);
+        background-color: rgba(138, 138, 182, 0.755);
         padding:5px 43%;
         margin: auto;
-    }
-    
-   
+    } 
+   .container{
+    margin-top: 235px;
+   }
+   input[type="text"]{
+       margin-left: 0px;
+       margin-right: 10px;
+       width: 47%;
+   }
     .icons img{
         margin: 25px 5px;
         width: 20px;

@@ -1,0 +1,244 @@
+body{
+    font-family: sans-serif;
+    margin: 0;padding: 0;
+}
+.bg-img{
+    background-image: url(../../photo/contactt.jpg);
+}
+.container{
+    margin:50px 0px;
+}
+/* navbar */
+nav{margin: 0;
+    padding: 0;
+    height: 90px;
+    width: 100%;
+    list-style: none;
+
+    background-color: rgba(92, 95, 94, 0.415);
+}
+.navleft li{
+    margin: 35px 30px;
+    float: left;
+    font-size: 20px;
+
+}
+.navright li{
+    font-size: 20px;
+    margin:35px 30px;
+    float:right;
+
+}
+nav li a{
+    color: black;
+    text-align: center;
+    
+    
+    text-decoration: none;
+}
+#active{
+    background: rgb(138, 138, 182);
+    padding: 10px 10px;
+}
+nav  a:hover{
+    background-color:  rgb(138, 138, 182);
+    padding: 10px 0px;
+}
+.concenter{
+    margin: 2% 10% ;
+}
+.headtext h3{
+    text-align: center;
+}
+.center{
+    
+    width: 90%;
+    display: flex;
+    background: rgba(203, 193, 193, 0.503);
+    margin-left: 5%;
+    border-radius: 5px;
+}
+.center img{
+    width: 30%;
+    height: 100%;
+    margin: 20px;
+    border-radius: 5px;
+}
+/* main */
+main{
+    width: 90%;
+    display: grid;
+    margin:0% 5%;
+    padding: 0;
+}
+
+.main{
+    margin: 10px;
+   display: flex;
+}
+.main{margin: 10px;
+    display: flex;
+}
+.img{
+    margin: 10px;
+    width: 50%;
+    height:210px;
+    display: flex;
+    background: rgba(149, 139, 139, 0.503);
+    border-radius: 5px;
+}
+.text{
+    margin: 10px;
+}
+
+.text h3{
+    text-align: center;
+}
+.img  img{
+    width: 60%;
+    height: 60%;
+    margin: 20px;
+    border-radius: 5px;
+}
+.img:hover, .center:hover{
+
+    background: rgba(245, 241, 241, 0.503);
+    
+}
+
+/* footer */
+footer{
+    margin: 75px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(189, 175, 175);
+}
+.address{
+    margin-top: 20px;
+}
+footer img{
+    margin: auto;
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+}
+h4{margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+.icons img{
+    margin: 20px;
+}
+@media(max-width:1200px){
+    #p2{
+        display: none;
+    }
+}
+@media(max-width:900px){
+    nav li a{
+        margin: 0px 0px;
+        font-size: 17px;
+    }
+    .center{
+        display: grid;
+    }
+    .center img{
+        margin-left: 25%;
+        margin-bottom: 0px;
+        width: 200px;
+        height:  250px;
+        border: rgba(105, 150, 155, 0.646) solid 5px;
+    }
+    .headtext{
+        margin-left: 10px;
+    }
+    #p2 {
+        display: none;
+    
+    }
+    .img img {
+        display: none;
+    }
+    .img{
+        margin: 0 5px;
+    }
+    .icons img{
+        margin: 10px;
+    }
+    .icons img{
+        margin-top: 25px;
+        width: 30px;
+        height: 30px;
+    }
+}
+@media(max-width:650px){
+    nav{
+        background-color: rgba(249, 249, 250, 0);
+        margin: 0px;
+        display:grid;
+    }
+    nav li a{
+        margin: 0;
+        font-size: 17px;
+    }
+  
+    .navright li{
+        text-align: center;
+        margin-top: 0px;
+        padding: 0;
+        float: left;
+    }
+    #active{
+        padding:5px 43%;
+    }
+
+    .navleft{
+        justify-self: center;
+    }
+    nav .navright {
+        display: grid;
+    }
+    .navleft a:hover{
+        color: black;
+        width: 100%;
+        background-color: rgb(138, 138, 182);
+        padding:5px 190px;
+        margin: auto;
+    }
+    .navright a:hover{
+        color: black;
+        width: 100%;
+        background-color: rgb(138, 138, 182);
+        padding:5px 43%;
+        margin: auto;
+    }
+    .concenter{
+        margin-top: 220px;
+    }
+    .img{
+        margin:10px 0px;
+        width: 100%;
+        
+    }
+    .main{
+        margin: 0px;
+        display: grid;
+    }
+    .icons img{
+        
+        margin: 10px ;
+        width: 20px;
+        height: 20px;
+    }
+    .address{
+        font-size: 12px;
+    }
+    h4{
+        margin-top: 30px;
+        font-size: 12px;
+    }
+
+}
