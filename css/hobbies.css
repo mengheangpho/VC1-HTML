@@ -3,10 +3,7 @@ body{
     margin: 0;padding: 0;
 }
 .bg-img{
-    background-image: url(../../photo/contactt.jpg);
-}
-.container{
-    margin:50px 0px;
+    background-image: url(../photo/hobbies.jpg);
 }
 /* navbar */
 nav{margin: 0;
@@ -14,8 +11,8 @@ nav{margin: 0;
     height: 90px;
     width: 100%;
     list-style: none;
+    
 
-    background-color: rgba(92, 95, 94, 0.415);
 }
 .navleft li{
     margin: 35px 30px;
@@ -30,55 +27,49 @@ nav{margin: 0;
 
 }
 nav li a{
-    color: black;
-    text-align: center;
-    
-    
+    color: rgba(0, 0, 0, 0.633);
+    text-align: center;   
     text-decoration: none;
 }
 #active{
-    background: rgb(138, 138, 182);
+    background: rgba(138, 138, 182, 0.51);
     padding: 10px 10px;
+    color: black;
+    border-radius: 5px;
 }
 nav  a:hover{
-    background-color:  rgb(138, 138, 182);
+    background-color:  rgba(130, 130, 159, 0.694);
     padding: 10px 0px;
+    border-radius: 5px;
 }
-.concenter{
-    margin: 2% 10% ;
-}
+
 .headtext h3{
     text-align: center;
+    text-decoration: underline;
 }
 .center{
-    
-    width: 90%;
+    margin-top: 20px;
+    width: 86%;
     display: flex;
-    background: rgba(203, 193, 193, 0.503);
-    margin-left: 5%;
+    background: rgba(108, 99, 99, 0.503);
+    margin-left: 7%;
     border-radius: 5px;
 }
 .center img{
-    width: 30%;
+    width: 20%;
     height: 100%;
     margin: 20px;
     border-radius: 5px;
 }
+
 /* main */
-main{
-    width: 90%;
-    display: grid;
-    margin:0% 5%;
-    padding: 0;
-}
+
 
 .main{
     margin: 10px;
    display: flex;
 }
-.main{margin: 10px;
-    display: flex;
-}
+
 .img{
     margin: 10px;
     width: 50%;
@@ -87,28 +78,30 @@ main{
     background: rgba(149, 139, 139, 0.503);
     border-radius: 5px;
 }
+.img img:hover{
+    border: 5px solid rgba(92, 150, 138, 0.51);
+}
 .text{
     margin: 10px;
 }
 
 .text h3{
+    text-decoration: underline;
     text-align: center;
 }
 .img  img{
-    width: 60%;
+    width: 20%;
     height: 60%;
     margin: 20px;
     border-radius: 5px;
 }
 .img:hover, .center:hover{
-
-    background: rgba(245, 241, 241, 0.503);
+    box-shadow: 0px 0px 11px 5px rgba(253, 252, 252, 0.43);
     
 }
 
 /* footer */
 footer{
-    margin: 75px;
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -133,9 +126,10 @@ h4{margin-top: 30px;
     margin: 20px;
 }
 @media(max-width:1200px){
-    #p2{
+    #none{
         display: none;
     }
+
 }
 @media(max-width:900px){
     nav li a{
@@ -143,21 +137,22 @@ h4{margin-top: 30px;
         font-size: 17px;
     }
     .center{
+        margin:0px 10% ;
+        width: 80%;
         display: grid;
     }
     .center img{
-        margin-left: 25%;
+        margin-left: 34%;
         margin-bottom: 0px;
         width: 200px;
         height:  250px;
         border: rgba(105, 150, 155, 0.646) solid 5px;
     }
+    .main{
+        margin-top: 10px;
+    }
     .headtext{
         margin-left: 10px;
-    }
-    #p2 {
-        display: none;
-    
     }
     .img img {
         display: none;
@@ -184,7 +179,6 @@ h4{margin-top: 30px;
         margin: 0;
         font-size: 17px;
     }
-  
     .navright li{
         text-align: center;
         margin-top: 0px;
@@ -194,7 +188,6 @@ h4{margin-top: 30px;
     #active{
         padding:5px 43%;
     }
-
     .navleft{
         justify-self: center;
     }
@@ -204,27 +197,31 @@ h4{margin-top: 30px;
     .navleft a:hover{
         color: black;
         width: 100%;
-        background-color: rgb(138, 138, 182);
+        background-color: rgba(138, 138, 182, 0.544);
         padding:5px 190px;
         margin: auto;
     }
     .navright a:hover{
         color: black;
         width: 100%;
-        background-color: rgb(138, 138, 182);
+        background-color: rgba(138, 138, 182, 0.462);
         padding:5px 43%;
         margin: auto;
     }
     .concenter{
-        margin-top: 220px;
+        margin-top: 190px;
+    }
+    .center img{
+        margin-left: 23%;
     }
     .img{
         margin:10px 0px;
         width: 100%;
+        padding: 10px;
         
     }
     .main{
-        margin: 0px;
+        margin: 0px 10px;
         display: grid;
     }
     .icons img{

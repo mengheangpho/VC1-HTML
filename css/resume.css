@@ -3,7 +3,7 @@ body{
     margin: 0;padding: 0;
 }
 .bg-img{
-    background-image: url(../../photo/educa.jpg);
+    background-image: url(../../photo/resume.jpg);
 }
 /* navbar */
 nav{margin: 0;
@@ -27,34 +27,33 @@ nav{margin: 0;
 }
 nav li a{
     color: rgba(252, 250, 250, 0.517);
-    text-align: center;
-    
-    
+    text-align: center;   
     text-decoration: none;
 }
 #active{
     background: rgba(138, 138, 182, 0.694);
     padding: 10px 10px;
     color: black;
+    border-radius: 5px;
 }
 nav  a:hover{
     background-color:  rgba(130, 130, 159, 0.694);
     padding: 10px 0px;
+    border-radius: 5px;
 }
 .container{
-    margin: 100px;
+    margin: 10px;
 }
 .introduc{
+    margin-left: 5%;
     display: flex;
-    width: 80%;
+    width: 90%;
     
 }
 .photo {
-    margin:20px;
-    width: 50%;
-    margin-left: 20%;
+    margin:10px 20px;
+    
 }
-
 
 
 img{
@@ -62,30 +61,21 @@ img{
     height: auto;
     border-radius: 10px;
     border: rgba(226, 210, 210, 0.701) solid 7px;
-    margin-bottom: 10px;
+    
 }
-.edu .grade1 .grade{
-    margin : 5px; 
-}
-
 .grade1{
-
-    width: 100%;
-    margin-bottom: 0;
+    margin: 0;
     display: flex;
-    
 }
-
-.grade1 .grade{
+.grade2{
+    margin: 0;
+    display: flex;
+}
+.grade{
+    margin: 10px;
     width: 50%;
-    margin-bottom: 0px;
-    
 }
-.grade p{
 
-    margin-top: 10px;
-    margin-left: 10px;
-}
 
 .grade h4{
     background: rgba(78, 74, 74, 0.66);
@@ -93,16 +83,14 @@ img{
     color: rgba(255, 255, 255, 0.605);
     text-align: center;
     border-radius: 10px;
+    margin-top: 0;
 }
-.grade p{
-    
+.grade p{margin: 10px 0px 0px 10px;
     padding: 20px;
     border-radius: 10px;
     background-color: rgba(165, 160, 160, 0.558);
 }
-/* .exper .grade{
-    margin: 20px;
-} */
+
 .text{
 
     width: 270px;
@@ -112,28 +100,34 @@ img{
     background-color: #a7a6a6c1;
 }
 .grade p:hover{
-
-    background-color: rgba(255, 255, 255, 0.605);
+    box-shadow: 0px 0px 15px 5px rgba(252, 249, 249, 0.687);
 }
 .experience{
     padding: 0;margin: 0;
 }
+
+
+
+
+
 .exper h4{
-    
     text-align: center;
     padding: 10px;
-    width: 100%;
+    width: 97%;
     border-radius: 5px;
     background-color: rgba(199, 190, 190, 0.639);
 
 }
 .exper p{
-    width: 100%;
-    margin: 10px;
+    width: 96%;
+    margin: 10px 10px;
     padding: 20px;
     border-radius: 5px;
     color: rgba(255, 255, 255, 0.565);
     background-color: rgba(122, 116, 116, 0.551);
+}
+.exper p:hover{
+    box-shadow: 0px 0px 15px 5px rgba(253, 252, 252, 0.43);
 }
 
 
@@ -166,53 +160,44 @@ h4{margin-top: 30px;
 }
 
 @media(max-width:1400px){
-    .grade1 .none{
-        display: none;
-    }
-    .grade1 .grade {
+    .grade1,.grade2 .grade {
         width: 100%;
     }
+
 }
 @media(max-width:1000px){
     nav li a{
         margin: 0px 0px;
         font-size: 17px;
     }
+    .introduc{
+        display: grid;
+    }
+    .photo{
+        display: flex;
+        width: 50%;
+        margin-left: 25%;
+    }
     .grade1 .none{
         display: block;
     }
     .grade1{
         display: grid;
-        margin-left: 20px;
     }
     .grade1 .grade{
 
-        width: 89%;
+        width: 93%;
     }
     .grade2{
         display: grid;
         width: 93%;
     }
-    .introduc{
-        margin: 0;
-        width: 100%;
-        display: grid;
-    }
-    .photo img{
-
-        margin-left: 3%;
-    }
-    .photo .text{
-        margin: 0%;
-        width: 100%;
-        
-
-    }
     .exper{
-        width: 100%;
+        width: 98%;
     }
-}
-    
+    .exper p{
+        width: 94%;
+    }
     .icons img{
         margin: 10px;
     }
@@ -242,7 +227,6 @@ h4{margin-top: 30px;
     #active{
         padding:5px 40%;
     }
-
     .navleft{
         justify-self: center;
     }
@@ -252,35 +236,21 @@ h4{margin-top: 30px;
     .navleft a:hover{
         color: black;
         padding: 5px 190px;
-        background-color: rgba(138, 138, 182, 0.571);
     }
     .navright a:hover{
         color: black;
         width: 100%;
-        background-color: rgba(138, 138, 182, 0.755);
-        padding:5px 43%;
-        margin: auto;
+        padding:5px 41%;
     } 
-    
-    .introduc{margin-top: 200px;
-        width: 100%;
-        
-    }
-    .photo  img{
-        margin-left: 0px;
-    }
-    .photo .text{
-        
-        display: none;
-    }
-    .grade2{
-        margin-left: 15px;
-    }
-   .grade1 .grade2, .grade{
-       width: 100%;
+   .photo{
+       margin-top: 170px;
+   } 
+   .exper h4{
+       width: 95%;
    }
-    
-   
+   .exper p{
+       width: 91%;
+   }
     .icons img{
         
         margin: 10px 0px;
@@ -290,8 +260,11 @@ h4{margin-top: 30px;
     .address{
         font-size: 12px;
     }
-    h4{margin-top: 30px;
+    h4{
+        
+    margin-top: 30px;
         font-size: 12px;
     }
 
+}
 }
