@@ -299,6 +299,12 @@ h4{margin-top: 30px;
     #active{
         padding:5px 130px;
     }
+    .navleft a:hover{
+        padding:5px 140px;
+    }
+    .navright a:hover{
+        padding:5px 40%;
+    }
    .mainright{
        width: 85%;
    }

@@ -282,6 +282,15 @@ h4{margin-top: 30px;
     }
 }
 @media(max-width:450px){
+    #active{
+        padding:5px 40%;
+    }
+    .navleft a:hover{
+        padding:5px 130px;
+    }
+    .navright a:hover{
+        padding:5px 40%;
+    }
     input[type="text"]{
         width: 45%;
     }

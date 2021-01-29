@@ -243,6 +243,15 @@ h4{margin-top: 30px;
     }
 }
 @media(max-width: 450px){
+    #active{
+        padding:5px 40%;
+    }
+    .navleft a:hover{
+        padding:5px 140px;
+    }
+    .navright a:hover{
+        padding:5px 42%;
+    }
     .exper{
         width: 92%;
     }

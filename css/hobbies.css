@@ -237,8 +237,14 @@ h4{margin-top: 30px;
     #firstnone{
         display: none;
     }
-    .navleft{
-        padding:5px 130px;
+    #active{
+        padding:5px 40%;
+    }
+    .navleft a:hover{
+        padding:5px 135px;
+    }
+    .navright a:hover{
+        padding:5px 40%;
     }
     .center img{
         margin-left: 15%;
