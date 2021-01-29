@@ -62,7 +62,7 @@ main{
 }
 .mainleft:hover{
     background-color: rgba(39, 37, 37, 0.599);
-    box-shadow: 0px 0px 15px 1px rgba(253, 252, 252, 0.43);
+    box-shadow: 0px 0px 15px 1px rgba(253, 252, 252, 0.939);
 }
 .img{
     margin-top: 20px;
@@ -106,6 +106,7 @@ color: white;
 
     border: rgba(0, 128, 128, 0.429) 5px ;
     box-shadow: 0px 0px 15px 1px rgba(250, 249, 249, 0.43);
+    background-color: rgba(161, 202, 208, 0.626);
 }
 .sub{
     margin-right: 40px;
@@ -120,7 +121,7 @@ color: white;
     color: rgba(0, 0, 0, 0.959);
 }
 .sub a:hover{
-    color:  rgba(255, 252, 250, 0.986);
+    color:  rgba(247, 247, 247, 0.986);
 }
 h3{
     text-decoration: underline;
@@ -190,11 +191,13 @@ h4{margin-top: 30px;
         width: 97%;
         margin: 10px;
         
-        background-color: rgba(162, 157, 157, 0.558);
+        background-color: rgba(111, 108, 108, 0.558);
         padding: 0px;
     }
     .mainright:hover{
-        box-shadow: 0px 0px 13px 5px rgba(251, 250, 250, 0.38);
+        color: rgba(255, 255, 255, 0.49);
+        background-color: rgba(0, 0, 0, 0.381);
+        box-shadow: 0px 0px 13px 5px rgba(251, 250, 250, 0.707);
     }
     .subject{
         
@@ -267,12 +270,12 @@ h4{margin-top: 30px;
     .mainright{
         padding:10px;
         margin: 20px;
-        width: 96%;
+        width: 88%;
     }
     .subject{
         display: block;
     margin: 10px;
-    width: 96%;
+    width: 94%;
 }
     .sub1{
         display: grid;

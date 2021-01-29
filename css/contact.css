@@ -32,7 +32,6 @@ nav li a{
 }
 #active{
     background: rgba(138, 138, 182, 0.694);
-    padding: 10px 10px;
     color: black;
     border-radius: 5px;
 }
@@ -142,6 +141,9 @@ iframe{
     color: black;
     margin-top: 20px;
     margin-left: 50px;
+}
+.icon a:hover{
+    color:white
 }
 .icon img{
     height: 50px;
