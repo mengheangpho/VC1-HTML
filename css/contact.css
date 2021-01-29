@@ -298,9 +298,11 @@ h4{margin-top: 30px;
     input[type="email"],
     input[type="submit"],
     input[type="reset"],
-    iframe,
-    .button{
+    iframe{
         padding: 7px;
+    }
+    .button{
+        page-break-after: 7px 10px;
     }
     h3{
         margin-left: 30%;
