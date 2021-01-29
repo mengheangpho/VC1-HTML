@@ -111,9 +111,16 @@ input[type="submit"],input[type="reset"]{
     background: rgba(245, 160, 49, 0.531);
 }
 .button{
-    width: 120px;
-    height: 40px;
-    background-color: black;
+margin-left: 48%;
+    width: 100px;
+    padding: 15px;
+    height: 20px;
+    border-radius: 140px;
+    background-color: rgba(213, 142, 142, 0.639);
+}
+.button a{
+    color: black;
+    text-decoration: none;
 }
 iframe{
     padding: 10px;
@@ -123,6 +130,9 @@ iframe{
 }
 .icon img{
     margin: 5px;
+}
+.address{
+    margin: 10px 0px;
 }
 .icon{
     margin-left: 100px;
@@ -193,6 +203,7 @@ h4{margin-top: 30px;
     input[type="email"],textarea{
         width: 99%;
     }
+    .button{margin-left: 40%;}
     h3{
         margin-left: 40%;
     }
@@ -255,19 +266,24 @@ h4{margin-top: 30px;
        width: 46.5%;
 
    }
+   .button{
+       margin-left: 35%;
+   }
    iframe{
        margin-right: 10px;
    }
-    .icons img{
-        margin: 25px 5px;
-        width: 20px;
-        height: 20px;
-    }
-    .address{
-        font-size: 12px;
-    }
-    h4{margin-top: 30px;
-        font-size: 12px;
-    }
+   .icons img{
+        
+    margin:25px 5px ;
+    width: 15px;
+    height: 15px;
+}
+.address{
+    font-size: 12px;
+}
+h4{
+    margin-top: 30px;
+    font-size: 12px;
+}
 
 }
