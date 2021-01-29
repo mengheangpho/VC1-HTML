@@ -127,7 +127,9 @@ img{
     background-color: rgba(122, 116, 116, 0.551);
 }
 .exper p:hover{
-    box-shadow: 0px 0px 15px 5px rgba(253, 252, 252, 0.43);
+    color: black;
+    background-color: rgba(255, 255, 255, 0.367);
+    box-shadow: 0px 0px 15px 5px rgba(253, 252, 252, 0.769);
 }
 
 
