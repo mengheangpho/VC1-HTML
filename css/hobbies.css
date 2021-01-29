@@ -237,6 +237,9 @@ h4{margin-top: 30px;
     #firstnone{
         display: none;
     }
+    .navleft{
+        padding:5px 130px;
+    }
     .center img{
         margin-left: 15%;
     }
