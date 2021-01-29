@@ -297,7 +297,7 @@ h4{margin-top: 30px;
         float: left;
     }
     #active{
-        padding:5px 130px;
+        padding:5px 140px;
     }
     .navleft a:hover{
         padding:5px 140px;
@@ -311,7 +311,9 @@ h4{margin-top: 30px;
    .sub{
        width: 90%;
    }
-   footer{
-       width: 100%;
+   footer .address{
+        margin-top: 20px;
+       font-size: 8px;
+
    }
 }
