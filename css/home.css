@@ -16,13 +16,11 @@ nav{margin: 0;
     margin: 35px;
     float: left;
     font-size: 25px;
-
 }
 .navright li{
     font-size: 20px;
     margin:35px 30px;
     float:right;
-
 }
 nav li a{
     color: black;
@@ -41,7 +39,6 @@ nav  a:hover{
     
     border-radius: 5px;
 }
-
 /* main */
 main{
     margin-left: 7%;
@@ -52,13 +49,11 @@ main{
     margin-top: 40px;
     /* background-color: rgb(113, 97, 128); */
 }
-
 .mainleft{
     background-color: rgba(81, 76, 75, 0.531);
     width: 30%;
     height: 500px;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 .mainleft:hover{
     background-color: rgba(39, 37, 37, 0.599);
@@ -83,7 +78,6 @@ main{
     border-radius: 10px;
     padding: 20px;
 }
-
 .mainright{
 color: white;
     width: 50%;
@@ -160,7 +154,6 @@ h4{margin-top: 30px;
     .intro{padding: 5px;
         font-size: 16px;
     }
-
 }
 @media(max-width:1000px){
     nav li a{
@@ -169,7 +162,6 @@ h4{margin-top: 30px;
     }
     main{
         display: inline;
-        
     }
     .mainright{
         margin:  10px;
@@ -203,7 +195,6 @@ h4{margin-top: 30px;
         
         display: grid;
     }
-
     .sub1{
         display: flex;
     }
@@ -233,7 +224,6 @@ h4{margin-top: 30px;
         margin: 0;
         font-size: 17px;
     }
-  
     .navright li{
         text-align: center;
         margin-top: 0px;
@@ -274,9 +264,9 @@ h4{margin-top: 30px;
     }
     .subject{
         display: block;
-    margin: 10px;
-    width: 94%;
-}
+        margin: 10px;
+        width: 94%;
+    }
     .sub1{
         display: grid;
     }
@@ -300,5 +290,22 @@ h4{margin-top: 30px;
         margin-top: 30px;
         font-size: 12px;
     }
-
+}
+@media(max-width:450px){
+    .navright li{
+        text-align: center;
+        float: left;
+    }
+    #active{
+        padding:5px 130px;
+    }
+   .mainright{
+       width: 85%;
+   }
+   .sub{
+       width: 90%;
+   }
+   footer{
+       width: 100%;
+   }
 }

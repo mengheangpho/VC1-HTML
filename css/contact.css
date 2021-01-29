@@ -11,19 +11,16 @@ nav{margin: 0;
     height: 90px;
     width: 100%;
     list-style: none;
-
 }
 .navleft li{
     margin: 35px 30px;
     float: left;
     font-size: 20px;
-
 }
 .navright li{
     font-size: 20px;
     margin:35px 30px;
     float:right;
-
 }
 nav li a{
     color: rgba(252, 250, 250, 0.517);
@@ -41,6 +38,8 @@ nav  a:hover{
     padding: 10px 0px;
     border-radius: 5px;
 }
+
+/* subcontainer */
 .subcontainer{
     margin: 40px 7%;
     padding: 10px;
@@ -48,19 +47,16 @@ nav  a:hover{
     border-radius: 5px;
     background-color: rgba(88, 86, 84, 0.51);
 }
-
 form{
     padding: 10px;
     width: 50%;
-    height: auto;
-    
+    height: auto;   
 }
 h3{
     color: white;
-    margin-left: 38%;
+    margin-left: 40%;
     text-decoration: underline;
 }
-
 input[type="text"]{
     background-color: rgba(250, 248, 248, 0.694);
     outline: none;
@@ -88,13 +84,10 @@ textarea{
     margin: 10px 0px;
     border: none;
     background-color: rgba(250, 246, 246, 0.694);
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
-
 .submit{
-    text-align: center;
-    
+    text-align: center; 
 }
 input[type="submit"],input[type="reset"]{
     padding: 15px;width: 200px;
@@ -175,12 +168,11 @@ h4{margin-top: 30px;
 .icons img{
     margin: 20px;
 }
-@media(max-width:900px){
+@media(max-width:1000px){
     nav li a{
         margin: 0px 0px;
         font-size: 17px;
     }
-    
     .icons img{
         margin: 10px;
     }
@@ -197,14 +189,15 @@ h4{margin-top: 30px;
     }
     form{
         width: 100%;
-    }
-    input[type="text"]{
-        margin-right: 10px;
-        width: 47%;
         box-sizing: border-box;
     }
+    input[type="text"]{
+        margin-left: 10px;
+        width: 47%;
+    }
     input[type="email"],textarea{
-        width: 99%;
+        margin: 10px;
+        width: 96%;
     }
     .button{margin-left: 40%;}
     h3{
@@ -228,7 +221,6 @@ h4{margin-top: 30px;
         margin: 0;
         font-size: 17px;
     }
-  
     .navright li{
         text-align: center;
         margin-top: 0px;
@@ -238,7 +230,6 @@ h4{margin-top: 30px;
     #active{
         padding:5px 40%;
     }
-
     .navleft{
         justify-self: center;
     }
@@ -259,34 +250,54 @@ h4{margin-top: 30px;
         padding:5px 43%;
         margin: auto;
     } 
+    h3{
+        margin-left: 35%;
+    }
    .container{
-    margin-top: 190px;
+        margin-top: 190px;
    }
    input{
-       box-sizing: border-box;
+        box-sizing: border-box;
    }
    input[type="text"]{
-       width: 46.5%;
-
+        width: 46.5%;
    }
    .button{
-       margin-left: 35%;
+        margin-left: 35%;
    }
    iframe{
-       margin-right: 10px;
+        margin-right: 10px;
    }
-   .icons img{
-        
-    margin:25px 5px ;
-    width: 15px;
-    height: 15px;
+   .icons img{   
+        margin:25px 5px ;
+        width: 15px;
+        height: 15px;   
+    }
+    .address{
+        font-size: 12px;
+    }
+    h4{
+        margin-top: 30px;
+        font-size: 12px;
+    }
 }
-.address{
-    font-size: 12px;
-}
-h4{
-    margin-top: 30px;
-    font-size: 12px;
-}
-
+@media(max-width:450px){
+    input[type="text"]{
+        width: 45%;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="submit"],
+    input[type="reset"],
+    iframe,
+    .button{
+        padding: 7px;
+    }
+    h3{
+        margin-left: 30%;
+    }
+    iframe{
+        margin-top: 10px;
+        width: 95%;
+    }
 }
